@@ -12,7 +12,7 @@ public class PathParamController {
 		if (userName.equals("selva") && password.equals("selva16")) {
 			return "access grandted";
 		} else {
-			return "access denied";
+			return "access not granted";
 		}
 	}
 
